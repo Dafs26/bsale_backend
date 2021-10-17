@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bsale',
-        'USER': 'jugador',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dflu5e19a4pkeh',
+        'USER': 'axchxsqemmlkkl',
+        'PASSWORD': '01b6c8fbf6bab70ea491e591e1b116176df893b7420d607ea102d0dd9fe63c09',
+        'HOST': 'ec2-18-233-27-224.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
