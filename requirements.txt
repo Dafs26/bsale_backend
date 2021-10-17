@@ -3,4 +3,4 @@ django-cors-headers
 djangorestframework
 gunicorn
 whitenoise
-mysqlclient
+psycopg2
