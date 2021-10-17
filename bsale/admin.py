@@ -3,7 +3,7 @@ from .models import Category, Product
 
 # Register your models here.
 class CategoryAdmin(admin.ModelAdmin):
-	field = ('name')
+	field = 'name'
 
 class ProductAdmin(admin.ModelAdmin):
 	fields = ('name','url_image','price','discount', 'category')
