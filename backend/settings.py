@@ -142,5 +142,5 @@ MEDIA_URL = 'media/'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
-    'https://bsaletest-frontend.herokuapp.com/',
+    'https://bsaletest-frontend.herokuapp.com',
 ]
