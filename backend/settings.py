@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '4u6o3+0%%vak)au67)6#+zef4*$5$o^&$n6-1y!=yj2uybx(j!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bsaletest-backend.herokuapp.com','localhost','0.0.0.0']
 
