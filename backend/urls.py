@@ -25,7 +25,7 @@ router.register(r'categories',views.CategoryView, 'category')
 router.register(r'products', views.ProductView, 'product')
 
 urlpatterns = [
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
